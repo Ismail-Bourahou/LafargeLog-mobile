@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Applicationstage" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorPrimaryDark">@color/my_dark_primary</item>
+        <item name="colorAccent">@color/my_accent_color</item>
+    </style>
+
+    <style name="Theme.Applicationstage" parent="Base.Theme.Applicationstage" />
+
+    <!--below is the custom theme which we will be using for our Login Screen-->
+    <!--We are using no action bar theme for our Login screen-->
+    <style name="Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--below line is for setting our text color to black-->
+        <item name="android:textColor">@color/black</item>
+        <!--we are setting our primary color to green-->
+        <item name="colorPrimary">@color/quantum_brown</item>
+        <!--we are setting our primary color dark to green-->
+        <item name="colorPrimaryDark">@color/quantum_brown</item>
+        <!--we are setting our edittext color to black-->
+        <item name="android:editTextColor">@color/black</item>
+        <!--we are setting our window background color to white-->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+</resources>

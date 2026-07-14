@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+
+
+    <!-- User email -->
+    <item
+        android:id="@+id/nav_user_email"
+        android:title="email address"
+        android:icon="@drawable/ic_email" />
+
+    <!-- Nearby Places -->
+    <item
+        android:id="@+id/nav_home"
+        android:title="Nearby Places"
+        android:icon="@drawable/ic_nearby_places" />
+
+    <!-- History -->
+    <item
+        android:id="@+id/nav_historique"
+        android:title="History"
+        android:icon="@drawable/ic_history" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Log out"
+        android:icon="@drawable/ic_logout" />
+
+</menu>
